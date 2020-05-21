@@ -5,6 +5,7 @@ public class Question12_AlphabeticalOrder {
 
     public static void main(String[] args) {
         String s = in.nextLine();
+        s=s.toLowerCase();
         int n = s.length();
         int c = 0;
         for (int i = 0; i < n - 1; i++) {
