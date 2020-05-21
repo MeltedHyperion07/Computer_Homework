@@ -15,8 +15,11 @@ public class Question8_MagicSquare {
         int sum = 0, sum2 = 0;
         for (int i = 0; i < n; i++)
             sum = sum + a[i][i];
-        for (int i = 0; i < n; i++)
-            sum2 = sum2 + a[i][n - 1 - i];
+        int c=n-1;
+        for (int i = 0; i < n; i++) {
+            sum2 = sum2 + a[i][c];
+            c--;
+        }
 
         if (sum != sum2)
             check = false;
@@ -43,3 +46,12 @@ public class Question8_MagicSquare {
         }
     }
 }
+
+/*Sample input:
+3
+4 9 2
+3 5 7
+8 1 6
+Sample Output:
+Magic Square
+ */

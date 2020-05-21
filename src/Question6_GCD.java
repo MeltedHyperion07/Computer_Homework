@@ -14,3 +14,9 @@ public class Question6_GCD {
         System.out.println(gcd(a, b));
     }
 }
+
+/*Sample Input:
+10 5
+Sample Output:
+5
+ */

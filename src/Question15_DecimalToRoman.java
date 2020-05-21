@@ -19,3 +19,6 @@ public class Question15_DecimalToRoman {
         System.out.println(ans);
     }
 }
+
+// Sample Input: 583
+// Sample Output: DLXXXIII

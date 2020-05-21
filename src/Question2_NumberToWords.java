@@ -47,3 +47,10 @@ public class Question2_NumberToWords {
         return words;
     }
 }
+
+/* Sample Input:
+Enter number
+1520
+Sample Output:
+one thousand five hundred twenty
+ */

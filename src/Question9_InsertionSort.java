@@ -22,3 +22,10 @@ public class Question9_InsertionSort {
         }
     }
 }
+
+/*Sample input:
+5
+4 9 2 1 8
+Sample Output:
+1 2 4 8 9
+ */

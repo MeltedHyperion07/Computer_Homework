@@ -13,7 +13,10 @@ public class Question11_StringDecoding {
         StringBuilder s1 = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             char x = s.charAt(i);
-            if ((int) x + key > (int) 'z') {
+            if(x==' '){
+                s1.append(x);
+            }
+            else if ((int) x + key > (int) 'z') {
                 int a = (key + (int) x) - (int) 'z';
                 a = (int) 'a' + a - 1;
                 char fin = (char) a;
@@ -27,3 +30,10 @@ public class Question11_StringDecoding {
         return s1.toString();
     }
 }
+
+/*Sample input:
+Arjun Gupta
+3
+Sample Output:
+Dumxq Jxswd
+ */

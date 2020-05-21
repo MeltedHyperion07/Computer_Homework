@@ -14,3 +14,9 @@ public class Question4Factorial {
         System.out.println(factorial(n));
     }
 }
+
+/*Sample Input:
+5
+Sample Output:
+120
+ */

@@ -5,7 +5,7 @@ public class Question12_AlphabeticalOrder {
 
     public static void main(String[] args) {
         String s = in.nextLine();
-        s=s.toLowerCase();
+        s = s.toLowerCase();
         int n = s.length();
         int c = 0;
         for (int i = 0; i < n - 1; i++) {
@@ -22,7 +22,7 @@ public class Question12_AlphabeticalOrder {
         String s1 = "";
         for (int i = 0; i <= n - 1; i++) {
             if (s.charAt(i) == ' ' && s.charAt(i + 1) != ' ') {
-                s1="";
+                s1 = "";
                 for (int j = i + 1; j <= n; j++) {
                     if (s.charAt(j) == ' ') {
                         break;
@@ -49,3 +49,9 @@ public class Question12_AlphabeticalOrder {
         }
     }
 }
+
+/*Sample input:
+welcome to the world of java
+Sample Output:
+java of the to welcome world
+ */

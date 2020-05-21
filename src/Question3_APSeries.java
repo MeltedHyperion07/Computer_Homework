@@ -15,3 +15,12 @@ public class Question3_APSeries {
         }
     }
 }
+
+/*
+Sample Input:
+10
+2
+5
+Sample Output:
+10 12 14 16 18
+ */

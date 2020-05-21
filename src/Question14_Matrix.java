@@ -55,3 +55,17 @@ public class Question14_Matrix {
         return sum;
     }
 }
+
+/*Sample Input:
+3 3
+5 4 8
+5 9 6
+6 3 7
+Sample Output:
+Sum of all Elements: 53
+Sum of Column 0: 16
+Sum of Column 1: 16
+Sum of Column 2: 21
+Sum of Diagonal Elements: 21
+Sum of Reverse Diagonal Elements: 23
+ */

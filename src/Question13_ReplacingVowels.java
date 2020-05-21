@@ -17,3 +17,9 @@ public class Question13_ReplacingVowels {
         System.out.println(s1);
     }
 }
+
+/*Sample Input:
+Arjun Gupta
+Sample Output:
+*rj*n g*pt*
+*/
