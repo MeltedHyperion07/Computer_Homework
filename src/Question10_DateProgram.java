@@ -37,3 +37,6 @@ public class Question10_DateProgram {
         return java.lang.Math.floor(julian);
     }
 }
+
+//Sample Input:8 6 2020
+//Sample Output:3812
